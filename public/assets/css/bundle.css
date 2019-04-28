@@ -1,0 +1,244 @@
+/* .card-img-top{
+    border:1px solid  #e5e5e5;
+} */
+.carousel-inner{
+    width:100%;
+    /* max-height: 500px !important; */
+}
+div.carousel-caption > h3, div.carousel-caption > p{
+    color: black;
+}
+a{
+    color: #ff2e44;
+}
+a:hover{
+    color: #B33C12;
+}
+textarea{
+    resize :none;
+}
+button, .btn, .form-control{
+    border-radius: 6px;
+
+}
+input, textarea, select, .btn-sm{
+  height: calc(1.8125rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+label{
+      font-size: 0.875rem;
+}
+.button-tambah{
+    color:  #ff2e44;
+}
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload i
+{
+    color:#c3c7c8;
+    position: absolute;
+    transform: translate(380%, -180%);
+    width: 30px;
+    height: 30px;
+    border-radius:100%;
+    background-color:white;
+    cursor: pointer;
+    padding-left:3px;
+    padding-top:4px;
+    font-size:22px;
+}
+
+.alert {
+    border: 0;
+    border-radius: 0;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+.alert-info {
+    background-color: #7CE4FE;
+    color: #3091B2;
+}
+
+.alert-success {
+    background-color: #8EF3C5;
+    color: #42A084;
+}
+
+.alert-warning {
+    background-color: #FFE28C;
+    color: #BB992F;
+}
+.alert-danger {
+    background-color: #FF8F5E;
+    color: #B33C12;
+}
+.align-middle,.text-middle{
+    vertical-align: middle;
+}
+.text-white{
+    color:white;
+}
+.text-black{
+    color:black;
+}
+.text-lightgray{
+    color:#bdbdbd;
+}
+.text-red{
+    color: red;
+}
+.font-10{
+    font-size:10pt;
+}
+.font-12-5{
+    font-size:12.5pt;
+}
+.font-11{
+    font-size:11pt;
+}
+.dot{
+    font-size: 3px;
+    color: #bdbdbd;
+    position: relative;
+    top: -3px;
+}
+.avatar{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.profile{
+    width: 0.7cm;
+    height: 0.7cm;
+}
+.profile-name{
+    height: 1.7cm;
+}
+.judul{
+    height:52px;
+    overflow:hidden;
+}
+.judul-post{
+    height:25px;
+    overflow:hidden;
+}
+.button-tambah{
+      font-size: 0.875rem;
+}
+.button-tambah:hover{
+    cursor: pointer;
+    color: #B33C12;
+}
+
+.cover-post{
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;  
+    border-radius:3px;    
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+    background-size: cover;
+}
+.beranda-img{
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;  
+    border-radius:3px;    
+    height:200px;
+    object-fit: cover;
+    background-size: cover;
+}
+.terbaru-img{
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;  
+    border-radius:3px;    
+    height:190px;
+    width:300px;
+    object-fit: cover;
+    background-size: cover;
+}
+.carousel-beranda{
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;  
+    border-radius:3px;    
+    width:1300px;
+    height:500px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.gambar-post{
+    overflow: hidden;    
+    height:400px;
+    width:850px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.sub-cat{
+    color: #e44d26;
+    border-left: 5px solid  #e44d26;
+    background: #ccc;
+    display: block;
+} 
+.media-body{
+    padding-right: 15px;padding-left: 15px;
+}
+.scroll-post{
+    overflow-x:hidden;
+    height:12cm
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.comment{
+    border:1px solid #C9CDD7;padding:10px;
+}
+.alasanBlock:hover{
+    cursor:pointer;
+}
+.detResepVid{
+    overflow: hidden;    
+    height:400px;
+    width:850px;
+    object-fit: cover;
+
+}
+.btn-white{
+    background-color:white;
+    color:black;
+    font-size:10pt
+}
+.btn-white:hover{
+    background-color: #ddd;
+    color: black;
+}
+.position-fixed{
+    position:fixed;
+}
+.modal-header{
+    background-color:#e44d26;
+    color: white; 
+}
+.imgResep{
+    object-fit: cover;
+    width:220px;
+    height:200px;
+    margin-top:5px;
+}
+.close{
+    color: white;
+}
